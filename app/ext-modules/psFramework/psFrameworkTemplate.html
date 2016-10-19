@@ -1,0 +1,174 @@
+﻿
+<div class="ps-title-bar">
+    <div class="row">
+        <div class="ps-logo-area col-sm-6">
+            <img class="ps-icon" ng-src="images/ems.png" />
+            <div class="ps-title-area">
+                <p class="ps-logo-title">{{ title }}</p>
+                <p class="ps-logo-subtitle">{{ subtitle }}</p>
+                 
+            </div>
+            <button type="button" ng-click="cancelEvent()" class="btn btn-info custombtn">
+             <span class = "glyphicon glyphicon-home"></span>
+             Home
+             </button>
+            <div ng-if="isMenuButtonVisible" ng-click="menuButtonClicked()" 
+                 class="ps-collapsed-menu pull-right">
+                <button type="button" class="btn ps-nav-button">
+                    <i class="fa fa-bars"></i>                   
+                </button>
+            </div>
+
+        </div>
+        <div class="ps-right-side-controls col-sm-6">
+        <div>
+         <div class="btn-group" ng-init="style={'background-color' : 'green'}">
+         <button type="button" class="btn btn-default" ng-style="style1" ng-click="style1=style; style2=null">Team 1</button>
+         <button type="button" class="btn btn-default" ng-style="style2" ng-click="style2=style; style1=null">Team 2</button>
+         <button type="button" class="btn btn-default" ng-style="style2" ng-click="style2=style; style1=null">Team 3</button>
+         <button type="button" class="btn btn-default" ng-style="style2" ng-click="style2=style; style1=null">Team 4</button>     
+         </div>
+          <h1><strong>Total:</strong><span class = "label label-primary" style="font-size:40px">{{total | currency}}</span></h1>
+         </div>
+        </div>
+        
+    </div>
+    
+</div>
+<div ng-transclude></div>
+<div class="container">
+<div style="position: absolute; left:320px; top: 200px; color: red;">   
+
+<div class="row">
+    <img style="height:274px; width:1200;" class="img-thumbnail" ng-src="{{routeString}}" />      
+    <hr>
+    <div class="row thumnailCust">
+    <ul class="thumbnails inline"> 
+    <li><label><strong>Price:</strong>{{10 | currency}}</label>
+    <div class="span0 well votingWidget">
+            <div class="votingButton" ng-click="upVoteSession1(10)">
+              <i class="icon-chevron-up icon-white"></i>
+            </div>
+            <div class="badge badge-inverse">
+              <div>{{upVoteCount1}}</div>
+            </div>
+            <div class="votingButton" ng-click="downVoteSession1(10)">
+              <i class="icon-chevron-down"></i>
+            </div>
+    </div>  
+    </li>
+    <li><label><strong>Price:</strong>{{25 | currency}}</label>
+    <div class="span0 well votingWidget">
+            <div class="votingButton" ng-click="upVoteSession2(25)">
+              <i class="icon-chevron-up icon-white"></i>
+            </div>
+            <div class="badge badge-inverse">
+              <div>{{upVoteCount2}}</div>
+            </div>
+            <div class="votingButton" ng-click="downVoteSession2(25)">
+              <i class="icon-chevron-down"></i>
+            </div>
+    </div>  
+    </li>
+    <li> <label><strong>Price:</strong>{{50 | currency}}</label>
+    <div class="span0 well votingWidget">
+    <div class="votingButton" ng-click="upVoteSession3(50)">
+              <i class="icon-chevron-up icon-white"></i>
+            </div>
+            <div class="badge badge-inverse">
+              <div>{{upVoteCount3}}</div>
+            </div>
+            <div class="votingButton" ng-click="downVoteSession3(50)">
+              <i class="icon-chevron-down"></i>
+            </div>
+    </div> </li>
+    <li> <label><strong>Price:</strong>{{100 | currency}}</label>
+    <div class="span0 well votingWidget">
+    <div class="votingButton" ng-click="upVoteSession4(100)">
+              <i class="icon-chevron-up icon-white"></i>
+            </div>
+            <div class="badge badge-inverse">
+              <div>{{upVoteCount4}}</div>
+            </div>
+            <div class="votingButton" ng-click="downVoteSession4(100)">
+              <i class="icon-chevron-down"></i>
+            </div>
+          </div> </li>
+    </ul>
+   <!--  <ul class="thumbnails inline">    
+    <li>
+        
+          <div class="span0 well votingWidget ">
+            <div class="votingButton" ng-click="upVoteSession()">
+              <i class="icon-chevron-up icon-white"></i>
+            </div>
+            <div class="badge badge-inverse">
+              <div> {{upVoteCount}}</div>
+            </div>
+            <div class="votingButton" ng-click="downVoteSession()">
+              <i class="icon-chevron-down"></i>
+            </div>
+          </div>        
+      
+    </li>
+    <li>
+        
+          <div class="span0 well votingWidget">
+            <div class="votingButton" ng-click="upVoteSession()">
+              <i class="icon-chevron-up icon-white"></i>
+            </div>
+            <div class="badge badge-inverse">
+              <div>{{upVoteCount}}</div>
+            </div>
+            <div class="votingButton" ng-click="downVoteSession()">
+              <i class="icon-chevron-down"></i>
+            </div>
+          </div>       
+      
+    </li>
+    <li class="row2">        
+          <div class="span0 well votingWidget">
+            <div class="votingButton" ng-click="upVoteSession()">
+              <i class="icon-chevron-up icon-white"></i>
+            </div>
+            <div class="badge badge-inverse">
+              <div>{{upVoteCount}}</div>
+            </div>
+            <div class="votingButton" ng-click="downVoteSession()">
+              <i class="icon-chevron-down"></i>
+            </div>
+          </div>      
+    </li>
+    <li class="row2">
+         
+          <div class="span0 well votingWidget">
+            <div class="votingButton" ng-click="upVoteSession()">
+              <i class="icon-chevron-up icon-white"></i>
+            </div>
+            <div class="badge badge-inverse">
+              <div>{{upVoteCount}}</div>
+            </div>
+            <div class="votingButton" ng-click="downVoteSession()">
+              <i class="icon-chevron-down"></i>
+            </div>
+          </div>      
+       
+     </li>     
+    </ul>  -->
+   </div>
+ </div>
+ </div>
+</div>
+    
+<!-- 
+    <h3>Sessions</h3> Order By:
+    <select name="" id="" ng-model="sortorder" class="input-small">
+      <option value="name" selected>Name</option>
+      <option value="-upVoteCount">Votes</option>
+    </select> -->
+
+   
+
+
+
+

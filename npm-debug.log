@@ -1,0 +1,64 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'angular-master-detail' ]
+2 info using npm@2.15.0
+3 info using node@v4.4.2
+4 verbose install initial load of C:\Users\500586\Desktop\MyApp\EMS Outing\package.json
+5 warn package.json demoapp@1.0.0 No repository field.
+6 verbose installManyTop reading scoped package data from C:\Users\500586\Desktop\MyApp\EMS Outing\node_modules\body-parser\package.json
+7 verbose installManyTop reading scoped package data from C:\Users\500586\Desktop\MyApp\EMS Outing\node_modules\express\package.json
+8 verbose readDependencies loading dependencies from C:\Users\500586\Desktop\MyApp\EMS Outing\package.json
+9 silly cache add args [ 'angular-master-detail', null ]
+10 verbose cache add spec angular-master-detail
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'angular-master-detail',
+11 silly cache add   scope: null,
+11 silly cache add   name: 'angular-master-detail',
+11 silly cache add   rawSpec: '',
+11 silly cache add   spec: 'latest',
+11 silly cache add   type: 'tag' }
+12 silly addNamed angular-master-detail@latest
+13 verbose addNamed "latest" is being treated as a dist-tag for angular-master-detail
+14 info addNameTag [ 'angular-master-detail', 'latest' ]
+15 silly mapToRegistry name angular-master-detail
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry data Result {
+18 silly mapToRegistry   raw: 'angular-master-detail',
+18 silly mapToRegistry   scope: null,
+18 silly mapToRegistry   name: 'angular-master-detail',
+18 silly mapToRegistry   rawSpec: '',
+18 silly mapToRegistry   spec: 'latest',
+18 silly mapToRegistry   type: 'tag' }
+19 silly mapToRegistry uri https://registry.npmjs.org/angular-master-detail
+20 verbose addNameTag registry:https://registry.npmjs.org/angular-master-detail not in flight; fetching
+21 verbose request uri https://registry.npmjs.org/angular-master-detail
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 2:51:14 PM
+24 verbose request id ded31fee1b38cb15
+25 http request GET https://registry.npmjs.org/angular-master-detail
+26 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+27 info attempt registry request try #2 at 2:51:24 PM
+28 http request GET https://registry.npmjs.org/angular-master-detail
+29 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+30 info attempt registry request try #3 at 2:52:24 PM
+31 http request GET https://registry.npmjs.org/angular-master-detail
+32 verbose stack Error: self signed certificate in certificate chain
+32 verbose stack     at Error (native)
+32 verbose stack     at TLSSocket.<anonymous> (_tls_wrap.js:1017:38)
+32 verbose stack     at emitNone (events.js:67:13)
+32 verbose stack     at TLSSocket.emit (events.js:166:7)
+32 verbose stack     at TLSSocket._init.ssl.onclienthello.ssl.oncertcb.TLSSocket._finishInit (_tls_wrap.js:582:8)
+32 verbose stack     at TLSWrap.ssl.onclienthello.ssl.oncertcb.ssl.onnewsession.ssl.onhandshakedone (_tls_wrap.js:424:38)
+33 verbose cwd C:\Users\500586\Desktop\MyApp\EMS Outing
+34 error Windows_NT 6.1.7601
+35 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "angular-master-detail"
+36 error node v4.4.2
+37 error npm  v2.15.0
+38 error code SELF_SIGNED_CERT_IN_CHAIN
+39 error self signed certificate in certificate chain
+40 error If you need help, you may report this error at:
+40 error     <https://github.com/npm/npm/issues>
+41 verbose exit [ 1, true ]

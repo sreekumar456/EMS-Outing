@@ -1,0 +1,75 @@
+<!doctype html>
+<html ng-app="eventsApp">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/master-detail.directive.css">
+
+     <!--Auction page -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+   <!--  <link href="Content/bootstrap.min.css" rel="stylesheet" /> -->
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="app/app.css" rel="stylesheet" />
+    <link href="ext-modules/psFramework/psFramework.css" rel="stylesheet" />
+    <link href="ext-modules/psMenu/psMenu.css" rel="stylesheet" />
+
+     <!--Default controllers-->
+    <script src="/lib/jquery.min.js"></script>
+    <script src="/lib/angular/angular.js"></script>
+    <script src="/lib/angular/angular-resource.js"></script>
+    <script src="/lib/angular/angular-route.min.js"></script>
+    <script src="/lib/underscore-1.4.4.min.js"></script>
+    <script src="/lib/bootstrap.min.js"></script>
+    <!-- Custom Controlllers-->
+    <script src="/js/app.js"></script>
+    <script src="/js/controllers/EditEventController.js"></script>
+
+    <script src="/js/master-detail.js"></script>
+    <script src="/js/master-detail.template.js"></script>
+
+    <script src="/js/controllers/EventController.js"></script>
+    <script src="/js/controllers/EventListController.js"></script>
+    <!--Custom services -->
+    <script src="/js/filters.js"></script>
+    <script src="/js/services/EventData.js"></script>
+     <script src="/js/services/MemberData.js"></script>
+    <!--Auction page -->
+  <!--   <script src="ext-modules/psMenu/psMenuModule.js"></script> -->
+    <script src="ext-modules/psMenu/psMenuController.js"></script>
+    <script src="ext-modules/psMenu/psMenuDirective.js"></script>
+    <script src="ext-modules/psMenu/psMenuItemDirective.js"></script>
+    <script src="ext-modules/psMenu/psMenuGroupDirective.js"></script>
+
+   <!--  <script src="ext-modules/psDashboard/psDashboardModule.js"></script> -->
+
+
+    <!-- <script src="ext-modules/psFramework/psFrameworkModule.js"></script> -->
+    <script src="ext-modules/psFramework/psFrameworkController.js"></script>
+    <script src="ext-modules/psFramework/psFrameworkDirective.js"></script>
+
+    <script src="app/appModule.js"></script>
+    <script src="app/appConfig.js"></script>
+
+  
+
+
+</head>
+
+
+<body ng-cloak class="container-fluid">
+  <!--   <div class="container">
+        <div class="navbar">
+            <div class="navbar-inner">
+                <ul class="nav">
+                    <li><a href="#/Auction">Auction</a></li>
+                </ul>
+            </div>
+        </div> -->
+ <a href="#/Auction">Auction</a>
+ <ng-view></ng-view>
+
+   <!--  </div> -->
+   
+</body>
+</html>

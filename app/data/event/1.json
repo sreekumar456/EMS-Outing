@@ -1,0 +1,49 @@
+{
+    "name": "Team 1",
+    "id": 1,
+    "date": "1/1/2013",
+    "time": "10:30 am",
+    "description":"Spartans ",   
+    "imageUrl": "image/captains/sujith.jpg", 
+    "balance" : 100,
+    "location": {
+        "address": "123 Wall St",
+        "city": "New York",
+        "province": "NY"
+    },      
+    "members": [{
+        "id": 1,
+        "name": "Amy",
+        "imageUrl": "image/members/Amrutha.jpg",
+        "description":"Spartans ",
+        "level": "Intermediate",
+        "location": {
+        "address": "Google Headquarters",
+        "city": "Mountain View",
+        "province": "CA"
+        }    
+      
+    }, {
+        "id": 2,
+        "name": "Anish",
+        "imageUrl": "image/members/Anish.jpg",
+        "description":"Spartans ",
+        "level": "Advanced",
+        "location": {
+        "address": "Google Headquarters",
+        "city": "Mountain View",
+        "province": "CA"
+        }   
+    }, {
+         "id": 3,
+        "name": "Anoop",
+        "imageUrl": "image/members/Anoop.jpg",
+        "description":"Spartans ",
+        "level": "Introductory",
+        "location": {
+        "address": "Google Headquarters",
+        "city": "Mountain View",
+        "province": "CA"
+    }
+    }]
+}

@@ -1,0 +1,51 @@
+{
+	"name": "Team 4",
+	"id": 4,
+	"date": "1/1/2010",
+	"time": "10am",
+	"description":"Martians ",
+	"balance" : 1400, 
+	"location": {
+		"address": "123 fake st",
+		"city": "riverton",
+		"province": "ut"
+	},
+	"imageUrl": "image/captains/Retheesh.jpg",
+	"creator": "jmcooper",
+	 "members": [{
+        "id": 1,
+        "name": "Amy",
+        "imageUrl": "image/members/Amrutha.jpg",
+        "description":"Spartans ",
+        "level": "Intermediate",
+        "location": {
+        "address": "Google Headquarters",
+        "city": "Mountain View",
+        "province": "CA"
+        }    
+      
+    }, {
+        "id": 2,
+        "name": "Anish",
+        "imageUrl": "image/members/Anish.jpg",
+        "description":"Spartans ",
+        "level": "Advanced",
+        "location": {
+        "address": "Google Headquarters",
+        "city": "Mountain View",
+        "province": "CA"
+        }   
+    }, {
+         "id": 3,
+        "name": "Anoop",
+        "imageUrl": "image/members/Anoop.jpg",
+        "description":"Spartans ",
+        "level": "Introductory",
+        "location": {
+        "address": "Google Headquarters",
+        "city": "Mountain View",
+        "province": "CA"
+    }
+    }]
+	
+}

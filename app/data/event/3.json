@@ -1,0 +1,50 @@
+{
+	"name": "Team 3",
+	"id": 3,
+	"creator": "joeeames",	
+	"date": "03/16/2013",
+	"time": "8:00am - 4:30pm",
+	"description":"Vivians ",
+	"location": {
+		"address": "42 Wallaby Way",
+		"city": "Sydney",
+		"province": "AU"
+	},
+	"imageUrl": "image/captains/Afeesa.jpg",
+	 "members": [{
+        "id": 1,
+        "name": "Amy",
+        "imageUrl": "image/members/Amrutha.jpg",
+        "description":"Spartans ",
+        "level": "Intermediate",
+        "location": {
+        "address": "Google Headquarters",
+        "city": "Mountain View",
+        "province": "CA"
+        }    
+      
+    }, {
+        "id": 2,
+        "name": "Anish",
+        "imageUrl": "image/members/Anish.jpg",
+        "description":"Spartans ",
+        "level": "Advanced",
+        "location": {
+        "address": "Google Headquarters",
+        "city": "Mountain View",
+        "province": "CA"
+        }   
+    }, {
+         "id": 3,
+        "name": "Anoop",
+        "imageUrl": "image/members/Anoop.jpg",
+        "description":"Spartans ",
+        "level": "Introductory",
+        "location": {
+        "address": "Google Headquarters",
+        "city": "Mountain View",
+        "province": "CA"
+    }
+    }]
+
+}

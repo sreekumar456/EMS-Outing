@@ -1,0 +1,29 @@
+<div>
+    <h1 class="text-info">EMS Team Outing</h1>
+    <hr/>
+    <hr/>
+    <ul class="thumbnails">
+        <li ng-repeat="event in events|orderBy:sortorder" class="span5">
+            <a href="#/event/{{event.id}}">
+                <div class="well hoverwell">
+                    <div class="row"><h2 class="span6">{{event.name}}</h2></div>
+                     <div class="row">
+                        <img style="height:384px; width:1024;" ng-src="{{event.imageUrl}}"/>
+                    </div>
+                    <div class="row">
+                        <span class="span1">Time:</span>
+                        <span>{{event.time}}</span>
+                    </div>
+                    <div class="row">
+                        <span class="span1">Desc:</span>
+                        <span>{{event.description}}</span>
+                    </div>
+                    <div class="row">
+                        <span class="span1">&nbsp;</span>
+                        <span>{{event.location.city}}, {{event.location.province}}</span>
+                    </div>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
