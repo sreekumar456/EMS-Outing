@@ -1,13 +1,13 @@
 {
-    "name": "Amy",
-    "id": 1,   
+    "name": "Ginu",
+    "id": 3,   
     "description":"Spartans ",
     "location": {
         "address": "Google Headquarters",
         "city": "Mountain View",
         "province": "CA"
     }, 
-    "imageUrl": "image/members/Amrutha.jpg",
-    "upVoteCount": 100       
+    "imageUrl": "image/members/Ginu.jpg",
+     "upVoteCount": 100      
     
 }

@@ -1,0 +1,13 @@
+{
+    "name": "JithinV",
+    "id": 3,   
+    "description":"Spartans ",
+    "location": {
+        "address": "Google Headquarters",
+        "city": "Mountain View",
+        "province": "CA"
+    }, 
+    "imageUrl": "image/members/JithinV.jpg",
+     "upVoteCount": 100      
+    
+}

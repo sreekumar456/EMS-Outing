@@ -1,0 +1,13 @@
+{
+    "name": "Nidheesh",
+    "id": 3,   
+    "description":"Spartans ",
+    "location": {
+        "address": "Google Headquarters",
+        "city": "Mountain View",
+        "province": "CA"
+    }, 
+    "imageUrl": "image/members/Nidheesh.jpg",
+     "upVoteCount": 100      
+    
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Prasad",
+    "id": 3,   
+    "description":"Spartans ",
+    "location": {
+        "address": "Google Headquarters",
+        "city": "Mountain View",
+        "province": "CA"
+    }, 
+    "imageUrl": "image/members/Prasad.jpg",
+     "upVoteCount": 100      
+    
+}

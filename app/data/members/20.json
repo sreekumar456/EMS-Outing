@@ -1,5 +1,5 @@
 {
-    "name": "Anish",
+    "name": "Vasudevan",
     "id": 2,   
     "description":"Spartans ",
     "location": {
@@ -7,7 +7,7 @@
         "city": "Mountain View",
         "province": "CA"
     }, 
-    "imageUrl": "image/members/Anish.jpg",
+    "imageUrl": "image/members/Vasudevan.jpg",
      "upVoteCount": 100        
     
 }

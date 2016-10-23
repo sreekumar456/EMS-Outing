@@ -4,7 +4,7 @@
 	"date": "1/1/2010",
 	"time": "10am",
 	"description":"Martians ",
-	"balance" : 1400, 
+	"balance" : 3575, 
 	"location": {
 		"address": "123 fake st",
 		"city": "riverton",
@@ -14,8 +14,8 @@
 	"creator": "jmcooper",
 	 "members": [{
         "id": 1,
-        "name": "Amy",
-        "imageUrl": "image/members/Amrutha.jpg",
+        "name": "Jeen",
+        "imageUrl": "image/members/Jeen.jpg",
         "description":"Spartans ",
         "level": "Intermediate",
         "location": {
@@ -36,16 +36,115 @@
         "province": "CA"
         }   
     }, {
-         "id": 3,
-        "name": "Anoop",
-        "imageUrl": "image/members/Anoop.jpg",
+        "id": 3,
+        "name": "Jithin",
+        "imageUrl": "image/members/Jithin.jpg",
         "description":"Spartans ",
-        "level": "Introductory",
+        "level": "Advanced",
         "location": {
         "address": "Google Headquarters",
         "city": "Mountain View",
         "province": "CA"
-    }
+        }   
+    },{
+        "id": 4,
+        "name": "Shamnad",
+        "imageUrl": "image/members/Shamnad.jpg",
+        "description":"Spartans ",
+        "level": "Advanced",
+        "location": {
+        "address": "Google Headquarters",
+        "city": "Mountain View",
+        "province": "CA"
+        }   
+    },{
+        "id": 5,
+        "name": "Ginu",
+        "imageUrl": "image/members/Ginu.jpg",
+        "description":"Spartans ",
+        "level": "Advanced",
+        "location": {
+        "address": "Google Headquarters",
+        "city": "Mountain View",
+        "province": "CA"
+        }   
+    },{
+        "id": 6,
+        "name": "Sangeetha",
+        "imageUrl": "image/members/Sangeetha.jpg",
+        "description":"Spartans ",
+        "level": "Advanced",
+        "location": {
+        "address": "Google Headquarters",
+        "city": "Mountain View",
+        "province": "CA"
+        }   
+    },{
+        "id": 7,
+        "name": "Kurian",
+        "imageUrl": "image/members/Kurian.jpg",
+        "description":"Spartans ",
+        "level": "Advanced",
+        "location": {
+        "address": "Google Headquarters",
+        "city": "Mountain View",
+        "province": "CA"
+        }   
+    },{
+        "id": 8,
+        "name": "Nofi",
+        "imageUrl": "image/members/Nofi.jpg",
+        "description":"Spartans ",
+        "level": "Advanced",
+        "location": {
+        "address": "Google Headquarters",
+        "city": "Mountain View",
+        "province": "CA"
+        }   
+    },{
+        "id": 9,
+        "name": "Jerry",
+        "imageUrl": "image/members/Jerry.jpg",
+        "description":"Spartans ",
+        "level": "Advanced",
+        "location": {
+        "address": "Google Headquarters",
+        "city": "Mountain View",
+        "province": "CA"
+        }   
+    },{
+        "id": 10,
+        "name": "Hareesh",
+        "imageUrl": "image/members/ems.jpg",
+        "description":"Spartans ",
+        "level": "Advanced",
+        "location": {
+        "address": "Google Headquarters",
+        "city": "Mountain View",
+        "province": "CA"
+        }   
+    },{
+        "id": 11,
+        "name": "Archana",
+        "imageUrl": "image/members/ems.jpg",
+        "description":"Spartans ",
+        "level": "Advanced",
+        "location": {
+        "address": "Google Headquarters",
+        "city": "Mountain View",
+        "province": "CA"
+        }   
+    },{
+        "id": 12,
+        "name": "Nisha",
+        "imageUrl": "image/members/ems.jpg",
+        "description":"Spartans ",
+        "level": "Advanced",
+        "location": {
+        "address": "Google Headquarters",
+        "city": "Mountain View",
+        "province": "CA"
+        }   
     }]
 	
 }

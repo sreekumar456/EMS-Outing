@@ -1,0 +1,13 @@
+{
+    "name": "Tijo",
+    "id": 3,   
+    "description":"Spartans ",
+    "location": {
+        "address": "Google Headquarters",
+        "city": "Mountain View",
+        "province": "CA"
+    }, 
+    "imageUrl": "image/members/Tijo.jpg",
+     "upVoteCount": 100      
+    
+}

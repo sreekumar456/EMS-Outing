@@ -1,13 +1,13 @@
 {
-    "name": "Anish",
-    "id": 2,   
+    "name": "Girish",
+    "id": 3,   
     "description":"Spartans ",
     "location": {
         "address": "Google Headquarters",
         "city": "Mountain View",
         "province": "CA"
     }, 
-    "imageUrl": "image/members/Anish.jpg",
-     "upVoteCount": 100        
+    "imageUrl": "image/members/Girish.jpg",
+     "upVoteCount": 100      
     
 }

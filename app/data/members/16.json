@@ -1,5 +1,5 @@
 {
-    "name": "Amy",
+    "name": "Sreekumar",
     "id": 1,   
     "description":"Spartans ",
     "location": {
@@ -7,7 +7,7 @@
         "city": "Mountain View",
         "province": "CA"
     }, 
-    "imageUrl": "image/members/Amrutha.jpg",
+    "imageUrl": "image/members/Sreekumar.jpg",
     "upVoteCount": 100       
     
 }

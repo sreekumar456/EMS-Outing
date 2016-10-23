@@ -1,0 +1,13 @@
+{
+    "name": "Joby",
+    "id": 3,   
+    "description":"Spartans ",
+    "location": {
+        "address": "Google Headquarters",
+        "city": "Mountain View",
+        "province": "CA"
+    }, 
+    "imageUrl": "image/members/Joby.jpg",
+     "upVoteCount": 100      
+    
+}

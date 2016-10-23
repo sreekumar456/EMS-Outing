@@ -31,6 +31,16 @@ psFramework.controller("psFrameworkController",
                 $($window).off("resize.psFramework"); // remove the handler added earlier
             });
 
+             $scope.resetEvent = function() {
+                 $scope.total = 0;
+                  $scope.upVoteCount1 = 0;
+                $scope.upVoteCount2 = 0;
+                 $scope.upVoteCount3 = 0;
+                $scope.upVoteCount4 = 0;
+                 return total;
+                
+                 
+            };
 
             $scope.upVoteSession1 = function(inc) {
                  $scope.total += inc;
